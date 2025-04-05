@@ -1,0 +1,30 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_delete_all"
+        android:title="Delete All"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_block_all"
+        android:title="Block All"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_block_first_four"
+        android:title="Block First Four"
+
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_set_default_sms"
+        android:title="Set as Default SMS App"
+
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_view_blocked"
+        android:title="View Blocked Messages"
+
+        app:showAsAction="never" />
+</menu>

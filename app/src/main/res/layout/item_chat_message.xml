@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_marginTop="8dp">
+
+    <!-- Message Body -->
+    <TextView
+        android:id="@+id/message_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:padding="10dp"
+        android:textColor="#616161"
+        android:textSize="14sp"
+        android:maxWidth="250dp" /> <!-- Added maxWidth for better message display -->
+
+    <!-- Timestamp -->
+    <TextView
+        android:id="@+id/timestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#546E7A"
+        android:textSize="10sp"
+        tools:ignore="SmallSp" />
+</LinearLayout>

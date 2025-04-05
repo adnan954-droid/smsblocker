@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/block_sms"
+        android:title="Block" />
+    <item
+        android:id="@+id/delete_sms"
+        android:title="Delete" />
+    <item
+        android:id="@+id/block_all"
+        android:title="Block All" />
+    <item
+        android:id="@+id/delete_all"
+        android:title="Delete All" />
+</menu>

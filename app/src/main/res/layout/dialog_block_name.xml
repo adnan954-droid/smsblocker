@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="250dp"
+    android:layout_gravity="center"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_background"
+    >
+
+    <!-- Input Field -->
+    <AutoCompleteTextView
+        android:id="@+id/etBlockName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Number or Name"
+        android:inputType="text"
+        android:padding="10dp"
+        android:background="@drawable/rounded_edittext"
+        android:completionThreshold="1"/>
+
+    <!-- Button Layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:paddingTop="8dp">
+
+        <!-- Cancel Button -->
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Cancel"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@android:color/darker_gray"/>
+
+        <!-- Block Name Button -->
+        <Button
+            android:id="@+id/btnBlock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Block"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:layout_marginStart="8dp"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_inbox"
+        android:icon="@android:drawable/sym_action_email"
+        android:title="Inbox" />
+    <item
+        android:id="@+id/nav_add"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="New Chat" />
+    <item
+        android:id="@+id/nav_blocked"
+        android:icon="@android:drawable/ic_dialog_alert"
+        android:title="Blocked" />
+</menu>

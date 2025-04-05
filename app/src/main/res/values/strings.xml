@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">smsblocker</string>
+    <string name="block_unknown_numbers">Block Unknown Numbers</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="back_button">Back Button</string>
+    <string name="type_a_message">Type a message</string>
+    <string name="todo">TODO</string>
+    <string name="sender">Sender</string>
+    <string name="message">Message</string>
+    <string name="timestamp">Timestamp</string>
+</resources>
